@@ -54,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
                     Prediction prediction = predictions.get(0);
                     if (prediction.score > 2.0) {
                         String name = prediction.name;
-                        log("Recognized gesture: " + name); // Логируем распознанный жест
+                        log("Число распознаноe: " + name); // Логируем распознанный жест
                         if (name.equals("V")) {
                             checkGuess();
                         } else {
@@ -62,7 +62,8 @@ public class MainActivity extends AppCompatActivity {
                             resultTextView.setText(inputNumber.toString());
                         }
                     } else {
-                        log("Gesture not recognized with score: " + prediction.score); // Логируем, если жест не распознан
+                        log("Число не распознано");
+//                        log("Gesture not recognized with score: " + prediction.score); // Логируем, если жест не распознан
                     }
                 } else {
                     log("No predictions found"); // Логируем, если нет предсказаний

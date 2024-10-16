@@ -11,10 +11,19 @@
         android:layout_centerHorizontal="true" />
 
     <TextView
-        android:id="@+id/resultTextView"
+        android:id="@+id/rulesTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/gestureOverlay"
+        android:layout_centerHorizontal="true"
+        android:text="@string/_0_9_v"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rulesTextView"
         android:layout_centerHorizontal="true"
         android:text="Result"
         android:textSize="24sp" />
