@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">lab_5</string>
+    <string name="entered_number_format">Введенное число: %s</string>
+    <string name="last_digit_format">Последняя цифра: %d</string>
+    <string name="gesture_not_recognized">Жест не распознан</string>
+    <string name="gesture_not_recognized_as_digit">Жест не распознан как цифра</string>
+    <string name="congratulations">Поздравляем! Вы угадали число: %d</string>
+    <string name="incorrect_guess">Неверно. Загаданное число: %d</string>
 </resources>
